@@ -3,7 +3,7 @@ app:
     code: VAULT
     notify: srswain@ecloudcontrol.com
 build:
-    version: 1.16
+    version: 0.4
     env: DEV
     build_file: none
     output_files: output/*.zip
