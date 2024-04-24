@@ -3,11 +3,11 @@ app:
     code: VAULT
     notify: srswain@ecloudcontrol.com
 build:
-    version: 0.4
+    version: 1.16
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: vault-1.2
+    image_template: vault-1.16
 
 deploy:
     context: sranjan1995/DEV
