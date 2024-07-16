@@ -10,7 +10,7 @@ build:
     image_template: vault-1.16
 
 deploy:
-    context: dcsranjan1995/DEV
+    context: sranjan1995/UAT
     type: statefulset
     ingress: none
     replicas: 1
