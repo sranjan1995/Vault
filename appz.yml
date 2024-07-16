@@ -10,7 +10,7 @@ build:
     image_template: vault-1.16
 
 deploy:
-    context: sranjan1995/DEV
+    context: dcsranjan1995/DEV
     type: statefulset
     ingress: none
     replicas: 1
@@ -29,7 +29,7 @@ volumes:
     size: 5Gi
 
 properties:
-    revision: 6
+    revision: 1
     ENABLE_AUTO_PASSWORD: True
     ENABLE_UI : false 
     
