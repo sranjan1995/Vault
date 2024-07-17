@@ -7,8 +7,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: vault-1.2
-
+    image_template: vault-1.16
 deploy:
     context: smruti/DEV
     type: statefulset
