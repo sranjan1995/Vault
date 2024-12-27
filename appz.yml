@@ -4,13 +4,13 @@ app:
     notify: srswain@ecloudcontrol.com
 build:
     version: 0.4
-    env: DEV
+    env: PROD
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
 
 deploy:
-    context: sranjan1995/DEV
+    context: sranjan1995/PROD
     type: statefulset
     ingress: none
     replicas: 1
